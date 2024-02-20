@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    min-width: 800px;
 }
+
 .logo{
     min-width:50px ;
     height: 30px;
@@ -112,41 +114,46 @@ body{
 }
 .hover2:hover{
     color:#0B57D0;
+    background-color: #F4F4F4;
  border-bottom: 2px solid rgb(0, 153, 255);  
+ cursor: pointer;
 
 }
-
+i:hover{
+  cursor: pointer;
+}
+.hover2{
+   padding-top: 10px;
+   padding-left: 15px;
+    height: 40px;
+    width: 250px;
+}
 .di{
     display: flex !important;
     justify-content: space-between;
 }
-
-
-@media screen and (max-width:335px) {
-    .span3{
-        display: none;
-    }
-    .id2{
-        padding-top: 5px;
-    }
+.inter{
+ display: flex;
+ justify-content: space-between;
+ background-color: #F2F6FC;
+ 
+}
+.ine2{
+    text-align: center;
     
 }
-@media screen and (max-width:569px) {
-    *{
-        max-width: 100%;
-    }
-    span{
-        display: none;
-   }
-    .logo img{
-        height: 40px;
-    }
-  
- .logo2 img{
-        visibility: hidden;
-    }
-     .but {
-      background-color:white;        
-    }
-   
+
+.ine1 i{
+    padding-left: 15px;
 }
+.ine1 span{
+    padding-left: 12px;
+}
+
+span:hover{
+    cursor: pointer;
+
+}
+
+
+
