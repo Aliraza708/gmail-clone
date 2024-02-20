@@ -113,8 +113,14 @@ body{
 .hover2:hover{
     color:#0B57D0;
  border-bottom: 2px solid rgb(0, 153, 255);  
- width: 200px;
+
 }
+
+.di{
+    display: flex !important;
+    justify-content: space-between;
+}
+
 
 @media screen and (max-width:335px) {
     .span3{
